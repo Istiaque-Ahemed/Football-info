@@ -144,3 +144,20 @@
     padding-top: 30px;
     color: black;
 }
+
+/*===============
+   Media Query
+============== */
+
+
+@media  only screen and (max-width:688px) {
+     .header-bennar{
+        width: 360px;
+        height: 695px;
+        
+     }
+
+     .container, .extra-item, .logo-section{
+         display: none;
+     }
+}
