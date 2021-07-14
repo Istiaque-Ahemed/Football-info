@@ -151,9 +151,9 @@
     color: black;
 }
 
-/*===============
-   Media Query
-============== */
+/*=========================
+   Media Query For Mobile
+========================= */
 
 
 @media  only screen and (max-width:600px) {
@@ -214,4 +214,68 @@
         left: 0;
         width: 100%;
     }
+
 }
+    /*=========================
+    Media Query For Tablet
+    ========================= */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header-bennar{
+        padding-top: 3rem;
+        max-width: 1020px;
+        height: 535px;
+        background-color: #343486;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 10px;
+    }
+    
+    .bennar-img img {
+        position: absolute;
+        width: 547.01px;
+        height: 439px;
+        left: 460.01px;
+        top: 65px;
+    }
+    .banner-text {
+        font-size: 42px;
+        color: #fff;
+        padding-left: 113px;
+        width: 44%;
+        padding-bottom: 5%;
+    }
+    .container{
+        margin-left: 0;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 70px 20px;
+    }
+    .away-kit {
+        position: relative;
+        left: 25px;
+
+    }
+
+    .extra-item{
+        min-width: 1020px;
+        margin-left: 0;
+        left: 0;
+    }
+    .partners img {
+        position: relative;
+        top: 76px;
+        left: 0;
+        width: 100%;
+    }
+    .logo-section{
+        min-width: 1020px;
+    }
+}
+
+    
+
