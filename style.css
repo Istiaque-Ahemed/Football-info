@@ -75,3 +75,36 @@
     height: 254px;
     padding: 2%;
 }
+/*============
+  Extra part  
+============== */
+
+.kit {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 49px;
+    color: gray;
+    padding-top: 50px;
+}
+.away-kit{
+    position: relative;
+    left: 120px;
+}
+.extra-item{
+    background-color: #ded9d9;
+    height: 600px;
+    margin: 50px;
+    box-shadow: 10px 0px 10px grey;
+    border-radius: 10px;
+}
+.partners h3 {
+    text-align: center;
+    position: relative;
+    top: 69px;
+    font-size: 30px;
+}
+.partners img {
+    position: relative;
+    top: 76px;
+    left: 44px;
+}
