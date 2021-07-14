@@ -40,14 +40,19 @@
     background-image: linear-gradient(#B7F8DB ,#50A7C2
     );
     color:black;
-}  
+} 
+
+.bennar-img img:hover{
+    transform: translateY(-10px);
+}
 
 .bennar-img img{
-    /* position: absolute; */
     width: 547.01px;
     height: 439px;
     left: 603.01px;
     top: 120px;
+    transition: transform 250ms;
+
 }
 /*===============
 
@@ -193,6 +198,9 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin: 70px 10px;
+    }
+    .player{
+        margin: 11px 11px 11px 30px;
     }
     .container{
         margin-left: 0;
